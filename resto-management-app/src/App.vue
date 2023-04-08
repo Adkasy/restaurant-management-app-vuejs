@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <SignUp></SignUp>
+  <img alt="Logo" src="./assets/Logo-Line-Livy.png" />
+  <router-view/>
 </template>
 
 <script>
-import SignUp from "./components/SignUp.vue";
 
 export default {
   name: "App",
   components: {
-    SignUp,
   },
 };
 </script>
@@ -22,5 +20,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img {
+  width: 180px;
+  margin-bottom: 10px;
 }
 </style>

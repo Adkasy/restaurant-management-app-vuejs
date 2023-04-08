@@ -1,0 +1,82 @@
+{
+  "User": [
+    {
+      "name": "Adit",
+      "email": "adit@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Bagas",
+      "email": "bagas@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Caca",
+      "email": "caca@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Daniel",
+      "email": "daniel@mail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "Erkhan",
+      "email": "erkhan@mail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "Fahri",
+      "email": "fahri@mail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "Geneva",
+      "email": "gene@mail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "name": "Harris",
+      "email": "harris@mail.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "name": "Inarta",
+      "email": "inarta@mail.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "name": "Jesslyn",
+      "email": "jesslyn@mail.com",
+      "password": "12345",
+      "id": 10
+    },
+    {
+      "name": "Kristine",
+      "email": "kristine@mail.com",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "name": "Louise",
+      "email": "louise@mail.com",
+      "password": "12345",
+      "id": 12
+    },
+    {
+      "name": "Moona",
+      "email": "mona@mail.com",
+      "password": "12345",
+      "id": 13
+    }
+  ]
+}
