@@ -9,6 +9,7 @@
         <td>Name</td>
         <td>Contact</td>
         <td>Location</td>
+        <td>Action</td>
       </tr>
     </thead>
     <tbody>
@@ -17,6 +18,9 @@
         <td>{{ restaurant.name }}</td>
         <td>{{ restaurant.contact }}</td>
         <td>{{ restaurant.location }}</td>
+        <td>
+          <router-link :to="'/update/' + restaurant.id">Edit</router-link>
+        </td>
       </tr>
     </tbody>
   </table>

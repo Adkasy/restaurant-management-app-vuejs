@@ -19,24 +19,24 @@
       "id": 3
     }
   ],
-  "Restaurants":[
+  "Restaurants": [
     {
-      "id":1,
-      "name":"McDonalds",
-      "contact":"(021)-00000",
-      "location":"Jakarta"
+      "id": 1,
+      "name": "McDonalds",
+      "contact": "(021)-00000",
+      "location": "Jakarta"
     },
     {
-      "id":2,
-      "name":"Pizza Hut",
-      "contact":"(021)-11111",
-      "location":"Depok"
+      "id": 2,
+      "name": "Pizza Hut",
+      "contact": "(021)-11111",
+      "location": "Depok"
     },
     {
-      "id":3,
-      "name":"Eatlah",
-      "contact":"(021)-22222",
-      "location":"Tangerang"
+      "id": 3,
+      "name": "Eatlah",
+      "contact": "(021)-22222",
+      "location": "Tangerang"
     }
   ]
 }

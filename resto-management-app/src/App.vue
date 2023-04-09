@@ -30,7 +30,8 @@ body {
   padding: 0;
 }
 
-.register-form input {
+.register-form input,
+.add-form input {
   height: 50px;
   width: 330px;
   padding-left: 20px;
@@ -45,9 +46,13 @@ button {
   border-radius: 10px;
   height: 50px;
   width: 150px;
-  background-color: dimgrey;
+  background-color: #2897f8;
   color: white;
-  border: 2px solid black;
+  border: 2px solid white;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #0275d8;
 }
 </style>
