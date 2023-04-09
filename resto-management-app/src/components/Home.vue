@@ -19,7 +19,8 @@
         <td>{{ restaurant.contact }}</td>
         <td>{{ restaurant.location }}</td>
         <td>
-          <router-link :to="'/update/' + restaurant.id">Edit</router-link>
+          <router-link :to="'/update/' + restaurant.id">Edit</router-link> |
+          <a href="#" @click="deleteRestaurant(restaurant.id)">Delete</a>
         </td>
       </tr>
     </tbody>
@@ -32,29 +33,53 @@ import axios from "axios";
 
 export default {
   name: "HomePage",
+
   data() {
     return {
       name: "",
       restaurants: [],
     };
   },
+
+  methods: {
+    async loadData() {
+      //TODO: Nampilin tabel restaurantnya
+      const restaurantList = await axios.get(
+        "http://localhost:3000/Restaurants"
+      );
+      this.restaurants = restaurantList.data;
+    },
+
+    async deleteRestaurant(id) {
+      const deleteData = await axios.delete(
+        "http://localhost:3000/Restaurants/" + id
+      );
+
+      console.log(deleteData);
+      if (deleteData.status == 200) {
+        this.loadData();
+      }
+    },
+  },
+
   components: {
     HeaderPage,
   },
+
   async mounted() {
+    //TODO: Untuk dapetin data user dari local storage
     const user = localStorage.getItem("dataUser");
 
+    //TODO: Untuk nampilin nama user di homepage
     this.name = JSON.parse(user).data[0].name;
-    // console.log("Nama User:", this.name);
 
+    //TODO: Navigation guard untuk user gak bisa masuk ke home sebelum signup atau login
     if (!user) {
       this.$router.push({ name: "SignUp" });
     }
 
-    // Nampilin tabel restaurantnya
-    const restaurantList = await axios.get("http://localhost:3000/Restaurants");
-    this.restaurants = restaurantList.data;
-    // console.log(this.restaurants);
+    //TODO: Ngeload data saat mounting
+    this.loadData();
   },
 };
 </script>
