@@ -17,66 +17,26 @@
       "email": "caca@gmail.com",
       "password": "12345",
       "id": 3
+    }
+  ],
+  "Restaurants":[
+    {
+      "id":1,
+      "name":"McDonalds",
+      "contact":"(021)-00000",
+      "location":"Jakarta"
     },
     {
-      "name": "Daniel",
-      "email": "daniel@mail.com",
-      "password": "12345",
-      "id": 4
+      "id":2,
+      "name":"Pizza Hut",
+      "contact":"(021)-11111",
+      "location":"Depok"
     },
     {
-      "name": "Erkhan",
-      "email": "erkhan@mail.com",
-      "password": "12345",
-      "id": 5
-    },
-    {
-      "name": "Fahri",
-      "email": "fahri@mail.com",
-      "password": "12345",
-      "id": 6
-    },
-    {
-      "name": "Geneva",
-      "email": "gene@mail.com",
-      "password": "12345",
-      "id": 7
-    },
-    {
-      "name": "Harris",
-      "email": "harris@mail.com",
-      "password": "12345",
-      "id": 8
-    },
-    {
-      "name": "Inarta",
-      "email": "inarta@mail.com",
-      "password": "12345",
-      "id": 9
-    },
-    {
-      "name": "Jesslyn",
-      "email": "jesslyn@mail.com",
-      "password": "12345",
-      "id": 10
-    },
-    {
-      "name": "Kristine",
-      "email": "kristine@mail.com",
-      "password": "12345",
-      "id": 11
-    },
-    {
-      "name": "Louise",
-      "email": "louise@mail.com",
-      "password": "12345",
-      "id": 12
-    },
-    {
-      "name": "Moona",
-      "email": "mona@mail.com",
-      "password": "12345",
-      "id": 13
+      "id":3,
+      "name":"Eatlah",
+      "contact":"(021)-22222",
+      "location":"Tangerang"
     }
   ]
 }
